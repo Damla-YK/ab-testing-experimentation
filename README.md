@@ -27,6 +27,10 @@ I designed a simple A/B test:
 | Conversions | 1,261 | 1,415 |
 | Conversion rate | 12.61% | 14.15% |
 
+## Conversion result
+
+![Control vs Treatment conversion](images/conversion_comparison.png)
+
 The treatment produced:
 
 - **+1.54 percentage points absolute lift**
@@ -34,9 +38,6 @@ The treatment produced:
 - **p = 0.00138**
 - **95% CI: +0.60 to +2.48 percentage points**
 
-## Conversion result
-
-![Control vs Treatment conversion](images/conversion_comparison.png)
 
 ### What does that mean?
 
