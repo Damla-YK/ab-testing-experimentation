@@ -34,6 +34,10 @@ The treatment produced:
 - **p = 0.00138**
 - **95% CI: +0.60 to +2.48 percentage points**
 
+## Conversion result
+
+![Control vs Treatment conversion](images/conversion_comparison.png)
+
 ### What does that mean?
 
 In simple terms:
@@ -166,7 +170,7 @@ Open the project folder in Spyder and run `analysis.py`.
 If required, install the packages with:
 
 ```bash
-pip install pandas numpy scipy statsmodels
+pip install pandas numpy scipy statsmodels matplotlib
 ```
 
 ---
