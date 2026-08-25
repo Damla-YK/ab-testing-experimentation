@@ -279,3 +279,31 @@ else:
     print(
         "There is not enough evidence to recommend the treatment yet."
     )
+
+
+# ---------------------------------------------------------
+# 13. Visualise conversion rates
+# ---------------------------------------------------------
+
+variants = ["Control", "Treatment"]
+rates = [control_rate, treatment_rate]
+
+plt.figure(figsize=(7, 5))
+
+plt.bar(variants, rates)
+
+plt.ylabel("Conversion rate")
+plt.title("7-Day Conversion: Control vs Treatment")
+
+# Show percentages on top of the bars
+for i, rate in enumerate(rates):
+    plt.text(
+        i,
+        rate + 0.002,
+        f"{rate:.2%}",
+        ha="center"
+    )
+
+plt.ylim(0, max(rates) + 0.03)
+plt.tight_layout()
+plt.show()
