@@ -10,6 +10,7 @@ The data is synthetic/mock data created for this portfolio project.
 
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 from scipy import stats
 
 
