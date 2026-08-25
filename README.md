@@ -166,7 +166,7 @@ Open the project folder in Spyder and run `analysis.py`.
 If required, install the packages with:
 
 ```bash
-pip install pandas numpy scipy
+pip install pandas numpy scipy statsmodels
 ```
 
 ---
